@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.carousel-item.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (width > 768px){
+    .w-90vh{
+        height: 90vh;
+    }
+}
+
+.season:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+    
+}
+
+.episode img:hover {
+    cursor:pointer;
+    transform: scale(1.1);
+}
